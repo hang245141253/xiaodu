@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.10)
 set(CMAKE_SYSTEM_NAME Linux)
 
-set(TARGET_ARCH_ABI "armv8")
+#set(TARGET_ARCH_ABI "armv8")
 set(PADDLE_LITE_DIR "../Paddle-Lite")
 
 if(TARGET_ARCH_ABI STREQUAL "armv8")
